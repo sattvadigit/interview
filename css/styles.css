@@ -1,0 +1,19 @@
+.ticTacField {overflow:hidden;}
+.ticTacRow {clear:both;}
+.ticTacCell {float:left; border: 1px solid #ccc; width: 20px; height:20px;
+    position:relative; text-align:center;}
+.ticTacCell a {position:absolute; left:0;top:0;right:0;bottom:0}
+.ticTacCell a:hover { background: #aaa; }
+.ticTacCell.winner { background:#f00;}
+
+.icon { display:inline-block; }
+.player1:after { content: 'X'; }
+.player2:after { content: 'O'; }
+
+#form-container { }
+
+.result {width: 47%; background: #eeeeee; margin: 1px; float: left; padding: 2px 10px 2px 10px;}
+.resart {margin: 6px 0 6px 0; display: block}
+
+#startdialog {position: absolute; width: 90%; height: 80%; border: 0px solid red; left: 0; top: 0; background-color: #fff; z-index: 10000; padding: 5%;}
+#startresultsview {display: none;}
